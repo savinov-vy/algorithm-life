@@ -3,6 +3,14 @@ package algorithm.arrays_hashing;
 
 import java.util.Arrays;
 
+/**
+ * Даны две строки s и t. Верните true, если эти две строки являются анаграммами друг друга,
+ * в противном случае верните false.
+ *
+ * Анаграмма — это строка, которая содержит те же самые символы,
+ * что и другая строка,
+ * но порядок символов может быть другим.
+ */
 public class ValidAnagram {
     public static void main(String[] args) {
         int[] arr = new int[26];

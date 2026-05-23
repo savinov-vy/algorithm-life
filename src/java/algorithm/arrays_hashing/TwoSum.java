@@ -3,6 +3,11 @@ package algorithm.arrays_hashing;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Дан массив целых чисел nums. Верните true,
+ * если любое значение встречается в массиве более одного раза,
+ * в противном случае верните false.
+ */
 public class TwoSum {
     public static void main(String[] args) {
         int[] arr = new int[26];
